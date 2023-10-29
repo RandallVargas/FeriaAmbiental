@@ -2,6 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+}
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+    background-size: cover;
     background-color: black;
+}
+.box{
+    position: relative;
+    transform-style: preserve-3d;
+    animation: animate 10s linear infinite;
+  
+    
+}
+@keyframes animate {
+    0% {
+        transform: perspective(10000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(10000px) rotateY(180deg);
+    }
+}
+.box span{
+    position: absolute;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)* 45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent,transparent, #0004);
 }
