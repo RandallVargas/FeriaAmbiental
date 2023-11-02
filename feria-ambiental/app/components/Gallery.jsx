@@ -34,11 +34,11 @@ const Gallery =()=>{
         loop={true}
         slidesPerView={'3'}
          coverflowEffect={{
-        rotate: 9,
+        rotate: 0,
         stretch: 500,
         depth: 200,
          modifier: 2.5,
-         slideShadows:true,
+        
 
         }}
      pagination={{ el: '.swiper-pagination', clickable: true }}

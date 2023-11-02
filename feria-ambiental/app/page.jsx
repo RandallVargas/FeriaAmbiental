@@ -8,7 +8,7 @@ export default function HomePage(){
     
 return(
     <main className='bg-image'  >
-       <div className="bg-fixed h-[900px] pt-10 pb-96 bg-slate-50" style={{ 
+       <div className="bg-fixed h-screen pt-10  bg-slate-50" style={{ 
             backgroundImage: `url(/images/FondoP.webp)`,
             backgroundSize: '100%' }}>
             
@@ -25,7 +25,7 @@ return(
               alt="wave"
               width={100}
               height={50}
-              className=' w-auto h-auto absolute -bottom-44 left-0'
+              className=' w-auto h-auto absolute bottom-auto '
               />
     </div>
    
