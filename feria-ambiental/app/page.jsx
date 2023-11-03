@@ -25,7 +25,7 @@ return(
               alt="wave"
               width={100}
               height={50}
-              className=' w-auto h-auto absolute bottom-auto '
+              className=' w-screen h-auto absolute -bottom-44 '
               />
     </div>
    
