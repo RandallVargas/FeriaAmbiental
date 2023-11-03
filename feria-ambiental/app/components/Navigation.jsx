@@ -43,6 +43,7 @@ export  function Navigation(){
               alt="wave"
               width={100}
               height={50}
+              priority
             //   className=' w-auto h-auto absolute bottom-auto left-0'
               />
                 </Link>

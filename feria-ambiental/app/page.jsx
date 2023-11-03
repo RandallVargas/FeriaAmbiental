@@ -40,7 +40,9 @@ return(
     <h1 className='text-white'>Organizadores</h1>
     <div className='h-[350px] bg-blue-700'></div>
     <h1 className='text-white'>Patrocinios</h1>
-    <div className='h-[350px] bg-sky-800'></div>
+    <div className='h-[350px] bg-gray-900 justify-center   '>
+        <Sponsorships/>
+    </div>
     <h1 className='text-white'>Contacto</h1>
     <div className='h-[350px] bg-orange-800'>   
            </div>

@@ -23,3 +23,30 @@ body{
    -webkit-box-reflect: below -40px linear-gradient(transparent,transparent, #0004);
 
 } */
+/* Sponsor Slide */
+
+#sponsor {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #sponsor-Slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #sponsor-Slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media only screen and (max-width: 600px) {
+   
+  }
