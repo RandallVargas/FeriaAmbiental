@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "name": "Nombre del Stand 1",
+      "image": "/images/CharlaParque.webp",
+      "initialText": "Texto inicial del Stand 1",
+      "fullText": "Texto completo del Stand 1"
+    },
+    {
+      "id": 2,
+      "name": "Nombre del Stand 2",
+      "image": "/images/2_T_Restauración_Ecológica_FRD.webp",
+      "initialText": "Texto inicial del Stand 2",
+      "fullText": "Texto completo del Stand 2"
+    },
+    {
+      "id": 3,
+      "name": "Nombre del Stand 3",
+      "image": "/images/3_C_Aves_y_ventanas_RMMO.webp",
+      "initialText": "Texto inicial del Stand 2",
+      "fullText": "Texto completo del Stand 2"
+    },
+    {
+      "id": 4,
+      "name": "Nombre del Stand 4",
+      "image": "/images/4_Taller_Ecológico_para_niños_y_niñas_CE.webp",
+      "initialText": "Texto inicial del Stand 2",
+      "fullText": "Texto completo del Stand 2"
+    }
+    ,
+    {
+      "id": 5,
+      "name": "Nombre del Stand 5",
+      "image": "/images/5_C_Proyecto_caminos_amigables_con_los_felinos_silvestres_panthera_DAG.webp",
+      "initialText": "Texto inicial del Stand 2",
+      "fullText": "Texto completo del Stand 2"
+    }
+    ,
+    {
+      "id": 6,
+      "name": "Nombre del Stand 6",
+      "image": "/images/6_C_Conservando_a_las_dantas_como_especie_bandera_es_una_manera_efectiva_de_conectar_áreas_silvestre.webp",
+      "initialText": "Texto inicial del Stand 2",
+      "fullText": "Texto completo del Stand 2"
+    },
+    {
+      "id": 7,
+      "name": "Nombre del Stand 6",
+      "image": "/images/7_C_Tapantí_El_paraíso_para_ranas_que_estamos_perdiendo_AMV.webp",
+      "initialText": "Texto inicial del Stand 2",
+      "fullText": "Texto completo del Stand 2"
+    },
+    {
+      "id": 8,
+      "name": "Nombre del Stand 6",
+      "image": "/images/NoPicture.webp",
+      "initialText": "Texto inicial del Stand 2",
+      "fullText": "Texto completo del Stand 2"
+    },
+    {
+      "id": 9,
+      "name": "Nombre del Stand 6",
+      "image": "/images/9_C_Biocultura_y_aves_del_cantón_de_Paraíso_DRC.webp",
+      "initialText": "Texto inicial del Stand 2",
+      "fullText": "Texto completo del Stand 2"
+    }
+
+  
+  ]

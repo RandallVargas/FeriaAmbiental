@@ -44,7 +44,7 @@ const Sponsorships =()=>{
         slidesPerView={slidesPerView}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 1000,
           disableOnInteraction: true,
         }}
       

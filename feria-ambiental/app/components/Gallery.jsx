@@ -14,8 +14,8 @@ import 'swiper/css/navigation';
 
 import {EffectCoverflow,Pagination,Navigation} from 'swiper/modules'
 
-import slide_image1 from "../assets/images/LOGO-TAPANTI-WEB.webp"
-import slide_image2 from "../assets/images/LOGO-TAPANTI-WEB.webp"
+import slide_image1 from "../assets/images/ave1.webp"
+import slide_image2 from "../assets/images/ave1.webp"
 import slide_image3 from "../assets/images/LOGO-TAPANTI-WEB.webp"
 import slide_image4 from "../assets/images/LOGO-TAPANTI-WEB.webp"
 import slide_image5 from "../assets/images/NoPicture.webp"
@@ -43,8 +43,8 @@ const Gallery =()=>{
         }}
      pagination={{ el: '.swiper-pagination', clickable: true }}
      navigation={{
-       nextEl: '.swiper-button-next',
-       prevEl: '.swiper-button-prev',
+       nextEl: '.swiper-button-prev',
+       prevEl: '.swiper-button-next',
        clickable: true,
      }}
      modules={[EffectCoverflow, Pagination, Navigation]}
@@ -56,8 +56,8 @@ const Gallery =()=>{
       <SwiperSlide><CardGallery image={slide_image3.src}/></SwiperSlide>
       <SwiperSlide><CardGallery image={slide_image4.src}/></SwiperSlide>
       <SwiperSlide><CardGallery image={slide_image5.src}/></SwiperSlide>
-      <SwiperSlide><CardGallery image={slide_image1.src}/></SwiperSlide>
-      <SwiperSlide><CardGallery image={slide_image1.src}/></SwiperSlide>
+      <SwiperSlide><CardGallery image={slide_image5.src}/></SwiperSlide>
+      <SwiperSlide><CardGallery image={slide_image5.src}/></SwiperSlide>
       <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
